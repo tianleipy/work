@@ -7,8 +7,8 @@ from datetime import datetime, date, timedelta
 host = 'http://172.23.0.131:8088'
 header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'}
 data = {
-    'account': 'tianlei',
-    'password': '669fe228883354abb53f9973dce0b7c3',
+    'account': '登录名',
+    'password': '密码',
     'keepLogin%5B%5D': 'on',
     'referer': 'http%3A%2F%2F172.23.0.131%3A8088%2Fzentao%2Fproductplan-browse-1.html'
         }
