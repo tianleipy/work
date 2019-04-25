@@ -34,7 +34,6 @@ def get_path():#获取最新计划请求路径和日期
         return ("没有获取到计划")
     try:
         path = re.findall(r'<a href="(/zentao/productplan-view-.*?)">', str(soup1))
-        #print(path)
         a.append(path)
     except:
         return ("没有获取到计划")
@@ -101,4 +100,3 @@ def get_sorb(tp):#入参1得到需求，其他bug
             return get_info2(a)
     else:
         return {}
-#print(get_sorb(1))
