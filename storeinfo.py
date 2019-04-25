@@ -8,9 +8,9 @@ def storinfo(a):#１：需求　２：ｂｕｇ
         print("NO message!!")
     else:
         try:
-            host = '172.23.40.211'
+            host = '数据库地址'
             user = 'root'
-            password = 'Yzf270701#'
+            password = '密码'
             db = 'storinfo'
             connection = pymysql.connect(host=host, port=3306, user=user, passwd=password, db=db)
             cursor = connection.cursor()
