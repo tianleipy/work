@@ -33,9 +33,9 @@ def postApproval(storyListStr, bugListStr):
 
     data = {
         'process_code': 'PROC-5FYJPUKV-0QZ38C5I36DEU88X7HCM3-PARDRNTJ-E',
-        'originator_user_id': '1415050452960922',
+        'originator_user_id': '提交人id',
         'dept_id': '25450641',
-        'approvers': '1415050452960922',
+        'approvers': '审批人id',
         'form_component_values': [{'name': '发布需求', 'value': storyListStr}, {'name': '发布缺陷', 'value': bugListStr}]
     }
 
